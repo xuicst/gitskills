@@ -4,7 +4,7 @@ import datetime
 
 class Golem:
     population = 0
-    __life_span = 10
+    __life_span = 10  #`__`两个下斜杠是定义私有变量，无法被外部引用
 
     def __init__(self, name=None):   #__init__为class中的一个method
         self.name = name
