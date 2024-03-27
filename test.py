@@ -14,6 +14,9 @@ class Running_Golem(Golem):
     def run(self):
         print("Can't you see ? I'm here waiting for you...")
 
+    def say_i(self):
+        print("Hey ! Nice day, Huh ?")
+
 rg = Running_Golem('Galiy')
 
 rg.run()
@@ -21,3 +24,4 @@ rg.run
 rg.built_year
 rg.name
 rg.say_i()
+hasattr(rg, 'built_year')
